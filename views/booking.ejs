@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/public/styles.css" />
+    <title>PadelBook</title>
+  </head>
+  <style>
+    body {
+      text-decoration: none;
+      padding: 150px;
+      font-family: "Courier New", Courier, monospace;
+      background-color: white;
+      text-align: center;
+      border-top: 10px solid #000000;
+      border-left: 10px solid #000000;
+      border-right: 10px solid #000000;
+      border-bottom: 10px solid #000000;
+    }
+    a {
+      text-decoration: none;
+      color: #000000;
+      font-size: 20px;
+      border-radius: 5%;
+      border-top: 2px solid #000000;
+      border-left: 2px solid #000000;
+      border-right: 2px solid #000000;
+      border-bottom: 2px solid #000000;
+    }
+
+    header {
+      background-color: #90c292;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 1rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .btn-outline-dark {
+      border: 1px solid #000;
+      color: #000; 
+      background-color: transparent; 
+      padding: 10px 20px;
+      text-decoration: none; 
+      transition: all 0.3s ease; 
+    }
+
+    .btn-outline-dark:hover {
+      background-color: #555;
+      color: #fff;
+    }
+  </style>
+
+  <body>
+    <main>
+      <% if (succes) { %>
+      <h1>Reserva realizada con éxito! :)</h1>
+      <% } else { %>
+      <h1>Error al realizar la reserva T_T, vuelve a intentarlo!</h1>
+      <% } %>
+      <a href="/" type="button" class="btn btn-outline-dark"
+        >Regresar a la página principal</a
+      >
+      <br><br><br><br><br>  
+      <iframe src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDU2eGJrZnFmcWF3emU3cHJrNzg1bmt3NndnOWt4NXBwejVqY29rZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/IYG3wulSTkS2kwat60/giphy.gif" width="384" height="480" frameborder="0"></iframe>
+
+    </main>
+  </body>
+</html>

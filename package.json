@@ -1,0 +1,24 @@
+{
+  "name": "padelsite",
+  "version": "1.0.0",
+  "description": "Aplicación para reservar canchas de pádel",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.1.0",
+    "ejs": "^3.1.10",
+    "express": "^4.18.2",
+    "oracledb": "^6.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "fabri montanari",
+  "license": "MIT"
+}
